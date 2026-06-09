@@ -60,12 +60,20 @@ p { color: #3A3834; }
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: auto;
   font-size: 22px;
   font-weight: 800;
   color: var(--black);
-  text-decoration: none;
   letter-spacing: -0.5px;
-  margin-right: auto;
+}
+
+.nav-logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
